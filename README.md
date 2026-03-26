@@ -1,4 +1,4 @@
-## Australian_Beer_Productions
+## Australian_Beer_Production
 ### Time Series Analysis and Forecasting of Australian Beer Production
 ### 1. Introduction
 This report presents a time series analysis of Australian beer production data to identify trends, seasonal patterns, and forecast future production levels. Beer production is an important economic indicator reflecting consumption patterns and industry performance in Australia. The analysis focuses on understanding the temporal structure of the data using time series techniques such as decomposition, ARIMA, SARIMA, and exponential smoothing. The dataset consists of quarterly beer production records, where each observation represents the total production for a given quarter. Different forecasting models are applied and compared using accuracy metrics to determine the most effective approach for predicting future production.
