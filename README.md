@@ -1,14 +1,23 @@
-# Australian_Beer_Productions
-## Time Series Analysis and Forecasting of Australian Beer Production
-## 1. Introduction
-This report presents a time series analysis of Australian beer production data with the objective of identifying trends, seasonality, and forecasting future production levels. Beer production is an important economic indicator reflecting consumption patterns and industry performance in Australia.
+## Australian_Beer_Productions
+### Time Series Analysis and Forecasting of Australian Beer Production
+### 1. Introduction
+This report presents a time series analysis of Australian beer production data to identify trends, seasonal patterns, and forecast future production levels. Beer production is an important economic indicator reflecting consumption patterns and industry performance in Australia. The analysis focuses on understanding the temporal structure of the data using time series techniques such as decomposition, ARIMA, SARIMA, and exponential smoothing. The dataset consists of quarterly beer production records, where each observation represents the total production for a given quarter. Different forecasting models are applied and compared using accuracy metrics to determine the most effective approach for predicting future production.
 
-The dataset consists of quarterly beer production values, making it suitable for time series modelling techniques such as decomposition, ARIMA, and exponential smoothing models. The analysis aims to compare different forecasting approaches and evaluate their performance using accuracy metrics.
+### 2. Objectives
+-  Explore and understand the time series dataset.
+-  Develop and evaluate machine learning models, particularly classical statistical methods.
+-  Evaluate models performance.
+-  Forcusting future production values.
+  
+### 3. Data Source
+https://www.kaggle.com/datasets/pochiv/australian-beer-production
 
-## 2. Dataset
-The dataset contains historical records of beer production in Australia measured over time at a quarterly. Each observation represents the total volume of beer produced within a specific quarter.
+### 4. Tools
+Python
 
-Key characteristics of the dataset include:
--  Time index: Quarterly observations
--  Variable: Beer production volume
--  Presence of trend and seasonal patterns
+### 5. Conclusion
+This project analysed Australian beer production using time series models, including ARIMA, SARIMA, and Holt-Winters. The results show that the SARIMA model performed best, achieving the lowest forecasting error (MAPE ≈ 1.95%) compared to ARIMA (≈ 3.05%) and Holt-Winters (≈ 3.20%).
+Overall, incorporating seasonality significantly improved model accuracy, and the SARIMA model provided reliable forecasts for future beer production.
+
+
+
